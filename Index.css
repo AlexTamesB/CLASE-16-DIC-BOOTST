@@ -1,0 +1,23 @@
+body{
+
+font-family: "Titillium wed" sans-serif;
+
+}
+
+
+main{
+    height: auto !important;
+    height:  100%;
+    min-height: 80vh;
+}
+
+footer{
+background-color: rgb(0,0,0, 0.815);
+
+}
+
+
+.iconos i{
+color: brown;
+    height: 30px;
+}
