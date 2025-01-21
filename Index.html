@@ -22,7 +22,7 @@
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
     <!-- Estilos Personalizados -->
-    <link rel="stylesheet" href="./Index.css">
+    <link rel="stylesheet" href="Index.css">
 
 </head>
 
@@ -41,14 +41,29 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#Header">Emcabezado</a>
                 </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#Articulos">Articulos</a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#Footer">Pie de pagina</a>
+                </li>
+
+
+                <!--minuto:1:28:00 en Esta zona del nav desplegable+ se cambio de nombres que trae de fabrica el b4,se agrego nombres como de informacion en los enlaces   -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        aria-haspopup="true" aria-expanded="false">Ver mas paginas</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="#">Action 1</a>
+                        <a class="dropdown-item" href="Infromacion.html">Informacion</a>
+                        <!-- aquie se cambio nopmbres -->
                         <a class="dropdown-item" href="#">Action 2</a>
                     </div>
                 </li>
@@ -66,9 +81,9 @@
     <!-- inicio de container 90% -->
     <div class="container">
 
-        <!-- inicio: header -->
+        <!-- inicio: Header -->
 
-        <header class="mb-5 mt-5">
+        <header id="Header" class="mb-5 mt-5">
 
             <div class="container">
                 <div class="row">
@@ -89,14 +104,19 @@
                     <div class="col-md-6 col-sm-6">
 
                         <!-- <-- class="jumbotron" para generar extructura de -->
-                        <div class="jumbotron">
-                            <h1 class="display-3">Jumbo heading</h1>
-                            <p class="lead">Jumbo helper text</p>
-                            <hr class="my-2">
-                            <p>More info</p>
-                            <p class="lead">
-                                <a class="btn btn-outline-danger btn-lg mt-2" href="Jumbo action link"
-                                    role="button">Jumbo action name</a>
+                        <div class="">
+                            <h1 class="display-4">Jumbo heading</h1>
+                            <p class="lead mt-5">Lorem, ipsum dolor sit amet consectetur
+                                dipisicing elit. Doloremque, laboriosam non tempora aut maiores
+                                adipisci officiis magnam sequi
+                                vel fugit est similique nam odit aperiam reprehenderit, repellat
+                                perferendis? Ratione, nam.</p>
+
+
+
+                            <a class="btn btn-secondary btn-lg mt-2 d-flex justify-content-center"
+                                href="Jumbo action link" role="button">Jumbo
+                                action name</a>
                             </p>
                         </div>
 
@@ -113,10 +133,16 @@
         <!-- inicio: main -->
         <main>
             <!-- inicio: section 1 testimonios-->
-            <section class="testimonios">
+            <section id="Testimonios" class="Testimonios">
+
                 <!-- inicio de contenedor 1-->
                 <div class="container">
-                    hola
+                    <p class="h2 mb-2">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique!
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti!
+                    </p>
+                    <p class="h4 lead"> Autor</p>
+
                 </div>
 
             </section>
@@ -125,14 +151,17 @@
 
 
             <!-- inicio: section 2 articulos -->
-            <section class="articulos">
+            <section id="Articulos" class="Articulos mt-5">
+
                 <div class="container"> <!-- <div class="container"> se utiliza para centrar contenedor -->
 
                     <div class="row"> <!-- row-columnas horizontales -->
+
                         <!-- inicio contenedor 1 -->
                         <div class="col-md-6 col-md-6">
 
-                            hola
+                            <img src="/CLASE-18-DIC-BOOTST/assets/image2.png" class="w-100" alt="">
+
                         </div>
 
                         <!-- fin de contendor 1 -->
@@ -141,7 +170,15 @@
                         <!-- inicio contenedor 2-->
                         <div class="col-md-6 col-md-6">
 
-                            hola
+                            <h2>Lorem, ipsum.
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore rem eveniet, officia
+                                nemo reprehenderit ea.
+                            </p>
+                            <!-- boton rojo  -->
+                            <a class="btn btn-danger btn-lg btn-block" href="#">Read More</a>
+
                         </div>
                         <!-- fin de contendor  2  -->
 
@@ -149,17 +186,8 @@
                 </div>
             </section>
 
-            <!-- fin de section 2 -->
 
 
-            <!-- inicio de contenedor 1-->
-
-            <!-- fin de contenedor 2-->
-
-
-            <!-- iunicio de contenedor 2-->
-
-            <!-- fin: section 2 -->
         </main>
         <!-- fin :main -->
 
@@ -168,7 +196,7 @@
     <!-- fin:contenedor 100% -->
 
     <!-- inicio de footer 100% -->
-    <footer>
+    <footer id="Footer" class="text-cender">
 
         <!-- inicio de footer informacion -->
         <div class="container">
@@ -191,7 +219,7 @@
 
                 <div class="col-md-5 col-sm-6">
 
-                          <!-- fin de contenedor 2 5-->
+                    <!-- fin de contenedor 2 5-->
 
                 </div>
 
@@ -212,7 +240,7 @@
 
         </div>
 
-       
+
 
 
     </footer>
